@@ -2,7 +2,7 @@ class Condition:
     def __init__(self, term_left, operator, term_right, col_type=None):
        
         self.term_left = term_left #Terme gauche (peut être un indice de colonne ou une constante)
-          self.operator = operator   #Opérateur de comparaison (ex: =, <, >, <=, >=, <>).
+        self.operator = operator   #Opérateur de comparaison (ex: =, <, >, <=, >=, <>).
         self.term_right = term_right  #Terme droit (peut être un indice de colonne ou une constante).
         self.col_type = col_type  # Optionnel, utilisé pour comparer correctement les chaînes (ex: int, float, str) pour une gestion correcte.
 
